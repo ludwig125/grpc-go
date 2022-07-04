@@ -70,6 +70,19 @@ client
 [~/go/src/github.com/ludwig125/grpc-go/helloworld] $
 ```
 
+# official tutorial
+
+https://grpc.io/docs/languages/go/basics/
+
+https://github.com/grpc/grpc-go/tree/master/examples/route_guide
+をローカルにコピー
+
+```
+[~/go/src/github.com/ludwig125/grpc-go/route_guide] $ protoc --go_out=. --go_opt=paths=source_relative \
+    --go-grpc_out=. --go-grpc_opt=paths=source_relative \
+    routeguide/route_guide.proto
+```
+
 # sample
 
 https://developers.google.com/protocol-buffers/docs/gotutorial
