@@ -12,6 +12,7 @@ https://developers.google.com/protocol-buffers/docs/gotutorial
 https://github.com/grpc/grpc-go/tree/master/examples/route_guide
 https://pkg.go.dev/google.golang.org/grpc#section-readme
 https://grpc.io/docs/languages/go/basics/
+https://note.crohaco.net/2020/golang-grpc/
 
 # install
 
